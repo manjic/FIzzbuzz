@@ -34,3 +34,21 @@ describe "divisible by fifteen" do
   end
 end 
 
+describe "play fizzbuzz" do
+  it "returns 1 for an input of 1" do
+    expect(play_fizzbuzz(1)).to eq 1
+  end
+
+  it "returns buzz for an input of 35" do
+    expect(play_fizzbuzz(35)).to eq 'buzz'
+  end
+
+  it "returns fizz for an input of 3" do
+    expect(play_fizzbuzz(3)).to eq 'fizz'
+  end
+end
+
+
+
+
+
