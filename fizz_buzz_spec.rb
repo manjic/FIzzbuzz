@@ -17,4 +17,8 @@ describe "divisible by five" do
     expect(divisible_by_five?(5)).to be_true
   end
 
+  it "knows that one is not divisible by five" do
+    expect(divisible_by_five?(1)).to be_false
+  end
+
 end
