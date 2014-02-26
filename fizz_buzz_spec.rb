@@ -22,3 +22,15 @@ describe "divisible by five" do
   end
 
 end
+
+describe "divisible by fifteen" do
+
+  it "knows that fifteen is divisible by fifteen" do
+    expect(divisible_by_fifteen?(15)).to be_true
+  end
+
+  it "knows that one is not divisible by fifteen" do
+    expect(divisible_by_fifteen?(1)).to be_false
+  end
+end 
+
